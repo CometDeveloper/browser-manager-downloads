@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "version": "1.3.4",
+  "packages": [
+    {
+      "format": "nsis",
+      "filename": "BrowserManager-Setup-1.3.4.exe",
+      "size": 132819206,
+      "sha512": "bf0d8719e9feee0374cc36e02eb60df771c0fe8163653075d2d7c116c40c32ec6060be7d15a9170b4584edd922c9a16dfa2df0c1947e7ce4968e3c7ee20f2d9d"
+    },
+    {
+      "format": "deb",
+      "filename": "browser-manager_1.3.4_amd64.deb",
+      "size": 119938820,
+      "sha512": "5d18e83b1345168450a3c0557a8a0886fc0b7bdbe4f2b2aad5efb2a6601d4eb0e86174caaddfac3581354992e77878076a49611b011a4444df054f8684e3cd12"
+    }
+  ]
+}
