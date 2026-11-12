@@ -6,12 +6,14 @@
   <meta name="description" content="Browser Manager для Windows та Ubuntu. Окремі браузерні профілі, власні домашні сторінки й оновлення застосунку.">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; base-uri 'none'; object-src 'none'">
   <title>Завантажити Browser Manager</title>
+  <link rel="icon" type="image/png" href="brand-light.png" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/png" href="brand-dark.png" media="(prefers-color-scheme: dark)">
   <link rel="stylesheet" href="styles.css">
   <script src="downloads.js" defer></script>
 </head>
 <body>
   <div class="page">
-    <header><a class="brand" href="./"><span class="brand-mark" aria-hidden="true">▣</span>Browser Manager</a><a class="text-link" href="https://github.com/CometDeveloper/browser-manager-downloads/releases">Усі версії ↗</a></header>
+    <header><a class="brand" href="./"><picture class="brand-mark"><source srcset="brand-dark.png" media="(prefers-color-scheme: dark)"><img src="brand-light.png" width="38" height="38" alt=""></picture>Browser Manager</a><a class="text-link" href="https://github.com/CometDeveloper/browser-manager-downloads/releases">Усі версії ↗</a></header>
     <main>
       <div class="intro"><span class="eyebrow">ВАШІ ПРОФІЛІ. ВАШ РОБОЧИЙ ПРОСТІР.</span><h1>Один менеджер.<br>Окремий простір<br>для кожного профілю.</h1><p>Зберігайте сесії, налаштовуйте домашні сторінки та повертайтеся до роботи без зайвих кроків.</p><span class="release" id="release-status" role="status">Перевіряємо актуальну версію…</span></div>
       <section class="downloads" aria-label="Завантаження застосунку">
@@ -21,7 +23,7 @@
       <section class="install"><div><span class="eyebrow">ВСТАНОВИТИ ОДИН РАЗ</span><h2>Далі застосунок сам<br>запропонує оновлення.</h2><p>GitHub-акаунт і токени не потрібні. Ви вирішуєте, коли завантажити й встановити нову версію. Перед оновленням закрийте браузерні профілі; їхні дані залишаться на пристрої.</p></div><div class="steps"><h3>Перший запуск</h3><p><strong>Windows:</strong> відкрийте завантажений EXE і пройдіть майстер встановлення.</p><p><strong>Ubuntu:</strong> відкрийте термінал у папці із завантаженим пакетом:</p><code id="ubuntu-command">sudo apt install ./browser-manager_VERSION_amd64.deb</code><p>У Browser Manager встановіть браузерний модуль і створіть перший профіль.</p><a class="text-link" id="checksums" href="https://github.com/CometDeveloper/browser-manager-downloads/releases">Перевірити контрольні суми ↗</a></div></section>
       <noscript><p class="fallback">Для кнопок завантаження увімкніть JavaScript або відкрийте <a href="https://github.com/CometDeveloper/browser-manager-downloads/releases/latest">останній реліз</a>.</p></noscript>
     </main>
-    <footer><span>Browser Manager</span><span>Ваші профілі зберігаються локально.</span></footer>
+    <footer><span class="footer-brand"><picture class="brand-mark"><source srcset="brand-dark.png" media="(prefers-color-scheme: dark)"><img src="brand-light.png" width="28" height="28" alt=""></picture>Browser Manager</span><span>Ваші профілі зберігаються локально.</span></footer>
   </div>
 </body>
 </html>
