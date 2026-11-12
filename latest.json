@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "version": "1.3.5",
+  "version": "1.3.6",
   "packages": [
     {
       "format": "nsis",
-      "filename": "BrowserManager-Setup-1.3.5.exe",
-      "size": 132819030,
-      "sha512": "b5a8cdf65ea22aaf6fb32fa0aaab82feac5fca9e7687d134bffa3c478af5665abdc4f33dd85e3a79b8528abb26d1734645fb5d5389ee2b1b5797a8c311a8ec7d"
+      "filename": "BrowserManager-Setup-1.3.6.exe",
+      "size": 132819105,
+      "sha512": "e3ac01bcca6a374bcd584b288ffacb3b2921dfa9991593c7b91320a330fd5234e98c4565fe01e983ba92b3b83c98f2d360a9797a9ae6b8bc62ce0391b7882e92"
     },
     {
       "format": "deb",
-      "filename": "browser-manager_1.3.5_amd64.deb",
-      "size": 119938208,
-      "sha512": "6038f0b017e0755665760b9272461a200970b2b735c0d7c9561c7a461209b3b1d73c168941736c7c2c97ebfe73f4b08a0351f835e5efb973390728564cf804ec"
+      "filename": "browser-manager_1.3.6_amd64.deb",
+      "size": 119940432,
+      "sha512": "fd042e7983f4d52fc2d4526793fb6814f4387c0f21dd6e9ad87a723f44130647fa316bec2fc75011ab0f50f97e7ca6e1f4387f026ac660836bb023ba86a4b3bb"
     }
   ]
 }
